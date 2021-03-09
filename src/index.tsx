@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {store} from './store/store';
-import Step2Part from './parts/Step2Part';
+import Step3Part from './parts/Step3Part';
 
 ReactDOM.render(
     <Provider store={store}>
       {/*<Step1Part/>*/}
-      <Step2Part/>
+      {/*<Step2Part/>*/}
+      <Step3Part/>
     </Provider>
     ,
     document.getElementById('root')
